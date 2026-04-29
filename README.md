@@ -46,7 +46,7 @@ In addition, the HSV image segmentation process begins by transforming the incom
 
 </p>
 
-## Contour Detection & Morphology with Spacial Boundaries
+## Contour Detection & Morphology with Spatial Boundaries
 Once segmented, connected-component analysis or contour detection is used to identify tank structures and regions within each tank. By analyzing the spatial distribution of thermal regions—particularly along the vertical axis—autonomous systems can infer level indications. For example, a distinct transition between warm liquid and cooler vapor space can be detected as a boundary within the segmented mask. Additionally, calculating metrics such as the percentage of hot or cool pixels within a defined tank region enables quantitative assessment of thermal distribution and potential anomalies. The image below demonstrates the area of interest with red boxes to highlight hot pixels within the defined tank region for further assessment, in this case tank level reinforcement but can be extended to asset integrity monitoring in many applications.
 
 <img width="800" height="600" alt="image" src="https://github.com/deep-model/HSV-Induced-Image-Segmentation-for-Real-Time-Asset-Monitoring/blob/main/5%20-%20HSV%20Saturatio%20Indeuced%20Hot%20Mask%20with%20Areas%20of%20interest.png"/>
